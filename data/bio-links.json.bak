@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "title": "?í’ˆ 1 (Coupang)",
+    "sourceUrl": "https://ads-partners.coupang.com/image1/w4ZWhc2GJglwNgNCwxBSImkA06bFJ1Z0MqosKENNlNkliUG9lagzGKt1yL_PQkK1_7yT6Y09Y5ww1OkorF_W77HfyspahqVgPNdiyTzoWO_ecVX6Zxr5UfamYpr7s1K5DwcIKhyFE6tzrXyeHvtMCrPDBYH8YMb4ojPFhyu2CHt2r2rDDXpgQgBQD4bghqTiPHSIWXnWF5VICzYOWd0ee66ya7Oh5JH19Hu_Hz1Ke6IISoG_GMAg0ZW4XVy0TjtFlNAtxQmE7mQ5qCvlsXfHoxW6e25l-bhM86GbK-7gPKTAQ6U39QP0p67YXIqScZ5oILmoOxDk",
+    "hostedImage": "static/images/coupang/image1.jpg",
+    "note": "?ë³¸??Coupang???œëª…??URL?´ë?ë¡?ë¦¬í¬ì§€? ë¦¬???¤ìš´ë¡œë“œ???ë?ê²½ë¡œë¡??¬ìš©?©ë‹ˆ??"
+  },
+  {
+    "id": 2,
+    "title": "?í’ˆ 2 (Coupang)",
+    "sourceUrl": "https://ads-partners.coupang.com/image1/m9KzifAkA3t0ioyBm-WLf6cBVMeu1IVPYg4pn6RU8zbVBS7sneI9B9-PIBRJCY9XpVW_HehOce43WjgBBIpS0zGTeTFxacf9dxYwnTMW0dVCXXKdbvZaOcOvWUpsZF9Wi0F2U4f4elzl9OswiJci-vFeWm3GrT8oSFI8I3zxN9WVCu-q2TaZQNrKIvahpCMBwtlPZGltqlncWuoUPmDRiuH9kQ7qyLlL-cp9dic6kuVkFM4CiOeu-DkJZErvvHER58sMem6GngwzcRfqdn22JIibHaNPgTiK-NBC1-iYDQLMojUHa6ELv06ygjtvguoV3ZBJKic=",
+    "hostedImage": "static/images/coupang/image2.jpg",
+    "note": "?ë³¸??ë§Œë£Œ/ì°¨ë‹¨?????ˆì–´ ë¡œì»¬??ë³´ê??©ë‹ˆ??"
+  },
+  {
+    "id": 3,
+    "title": "?„ë ˆ??2026-08-02",
+    "sourceUrl": "https://dailyshort6.github.io/shopping-short/frames/2026-08-02-4-actual.jpg",
+    "hostedImage": "static/frames/2026-08-02-4-actual.jpg",
+    "note": "?„ë©”??ë³€ê²??„ìš”: 'dailyshort6.github.io' ??'dailyshort6.github.io' ?ëŠ” ë¡œì»¬ ?¸ìŠ¤??ê¶Œì¥"
+  },
+  {
+    "id": 4,
+    "title": "?„ë ˆ??2026-07-31",
+    "sourceUrl": "https://dailyshort6.github.io/shopping-short/frames/2026-07-31-2.jpg",
+    "hostedImage": "static/frames/2026-07-31-2.jpg",
+    "note": "?„ë©”??ë³€ê²??„ìš” ?ëŠ” ë¦¬í¬ì§€? ë¦¬???Œì¼ ì¶”ê? ê¶Œì¥"
+  }
+]

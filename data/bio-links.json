@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "title": "상품 1 (Coupang)",
+    "sourceUrl": "/shopping-short/static/images/coupang/image1.jpg",
+    "hostedImage": "/shopping-short/static/images/coupang/image1.jpg",
+    "note": "원본 Coupang 이미지 주소 대신 로컬 파일 경로를 사용합니다."
+  },
+  {
+    "id": 2,
+    "title": "상품 2 (Coupang)",
+    "sourceUrl": "/shopping-short/static/images/coupang/image2.jpg",
+    "hostedImage": "/shopping-short/static/images/coupang/image2.jpg",
+    "note": "원본 Coupang 이미지 주소 대신 로컬 파일 경로를 사용합니다."
+  },
+  {
+    "id": 3,
+    "title": "?�레??2026-08-02",
+    "sourceUrl": "https://dailyshort6.github.io/shopping-short/frames/2026-08-02-4-actual.jpg",
+    "hostedImage": "static/frames/2026-08-02-4-actual.jpg",
+    "note": "?�메??변�??�요: 'dailyshort6.github.io' ??'dailyshort6.github.io' ?�는 로컬 ?�스??권장"
+  },
+  {
+    "id": 4,
+    "title": "?�레??2026-07-31",
+    "sourceUrl": "https://dailyshort6.github.io/shopping-short/frames/2026-07-31-2.jpg",
+    "hostedImage": "static/frames/2026-07-31-2.jpg",
+    "note": "?�메??변�??�요 ?�는 리포지?�리???�일 추�? 권장"
+  }
+]

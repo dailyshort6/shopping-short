@@ -1,0 +1,29 @@
+ # 쇼핑 쇼츠 파이프라인
+
+ 이 문서는 쇼핑 쇼츠 자동화 파이프라인의 전체 흐름과 주요 파일/스크립트를 정리합니다.
+
+ 요약:
+- 인스타그램 트렌드를 수집 → 원본 소스 수집 → 소스 가용성 검사 → 쿠팡 매칭 검증 → 편집 → GitHub Pages에 업로드 → 인스타그램 업로드 및 링크인바이오 갱신
+
+ 주요 단계(간단 요약):
+1. 주제 수집: `scripts/01-collect-topics-instagram.js` → `data/topics/<run-id>.json`
+2. 소스 수집: `scripts/02-collect-sources.js` → `data/candidates/<run-id>.json`
+3. 소스 가용성(Feasibility) 검사: 원본 확보 가능 여부 판단
+4. 쿠팡 매칭: `scripts/07-find-coupang-link.js` (결과: `coupangUrl`, `coupangTitle`, `coupangImage`, `coupangPrice`)
+5. 편집 및 렌더링: Remotion 기반 편집 → `data/output/<run-id>.mp4`
+6. Pages 업로드: `scripts/04-publish-to-pages.sh` (링크 확보)
+7. 링크인바이오 갱신: `scripts/06-add-bio-link.js` → `data/bio-links.json` 갱신
+
+ 주요 파일:
+- `data/candidates/<run-id>.json` — 후보 목록 및 검증 상태 기록
+- `data/bio-links.json` — 링크인바이오 저장소
+- `scripts/*` — 단계별 자동화 스크립트
+
+ 외부 의존성:
+- Apify, Coupang Partners API, SerpApi(Google Lens), ElevenLabs, Telegram, GitHub Pages, Instagram Graph API
+
+ 운영 원칙 (요약):
+- 소스 확보(Feasibility) 실패 시 비용이 큰 후속단계를 실행하지 않습니다.
+- 쿠팡 매칭은 실제 구매 가능 여부를 우선 확인합니다.
+
+ (원본의 상세 내용은 필요 시 복원하거나 `backups/corrupt_SHOPPING-SHORTS-PIPELINE.md` 참조)
